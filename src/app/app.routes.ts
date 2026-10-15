@@ -4,6 +4,7 @@ import { StartComponent } from './start/start.component';
 import { PetlaForComponent } from './petla-for/petla-for.component';
 import { StudentsComponent } from './students/students.component';
 import { StudentComponent } from './student/student.component';
+import { SerwisComponent } from './serwis/serwis.component';
 
 export const routes: Routes = [
     {path: '', pathMatch: 'full', redirectTo: 'start'},
@@ -12,5 +13,6 @@ export const routes: Routes = [
     {path: 'petla-for', component: PetlaForComponent},
     {path: 'students', component: StudentsComponent},
     {path: 'student/:id', component: StudentComponent},
+    {path: 'serwis', component: SerwisComponent},
 
 ];
